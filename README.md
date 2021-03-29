@@ -1,4 +1,4 @@
-# biaswatchCS
+# BiasWatchCS
 
 The purpose of this repository is to watch biases in Computer Science conferences from files extracted from EasyChair.org.
 
@@ -15,7 +15,7 @@ It is largely inspired from https://biaswatchneuro.com
 
 # How statistics are computed ?
 
-- The input is a `.csv` file containting *firstname* associated with *country* codes. 
-- Each  *firstname* is associated to a *gender* with probability from the API https://genderize.io} using the python libraryhttps://pypi.org/project/Genderize/}}.
+- The input is a `.csv` file containting *firstname*s associated with *country* codes. 
+- Each  *firstname* is associated to a *gender* with probability from the API https://genderize.io using the python library https://pypi.org/project/Genderize/.
 
 - Each *code* of a country (like FR for France) is associated to a *geographical area* as classified by United Nations https://unstats.un.org/unsd/methodology/m49/.
